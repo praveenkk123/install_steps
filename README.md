@@ -27,7 +27,7 @@
 
 3. Type in the below commands:
     ```sh
-    conda create -n gpu_llmsycl python=3.11 -y
+    conda create -n gpu_llmsycl python=3.11
     conda activate gpu_llmsycl    
     git clone https://github.com/intel/AI-PC_Notebooks.git
     source /opt/intel/oneapi/setvars.sh --force
