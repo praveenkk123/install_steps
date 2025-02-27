@@ -28,19 +28,22 @@
 3. Type in the below commands:
     ```sh
     conda create -n gpu_llmsycl python=3.11
-    conda activate gpu_llmsycl    
+    conda activate gpu_llmsycl      
+    ```
+4. Install llama-cpp-python:
+    ```sh    
     git clone https://github.com/intel/AI-PC_Notebooks.git
     source /opt/intel/oneapi/setvars.sh --force
     CMAKE_ARGS="-DGGML_SYCL=on -DCMAKE_C_COMPILER=icx -DCMAKE_CXX_COMPILER=icpx" pip install llama-cpp-python -U --force --no-cache-dir --verbose
     
     ```
 
-4. Create a ipykernel as below
+5. Create a ipykernel as below
    ```sh    
     python -m ipykernel install --user --name=gpu_llmsycl
     ```
 
-5.  Navigate to: `AI-PC_Notebooks/AI-Travel-Agent/` and run
+6.  Navigate to: `AI-PC_Notebooks/AI-Travel-Agent/` and run
           
    pip install -r requirements.txt
           
