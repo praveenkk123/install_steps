@@ -11,11 +11,13 @@
     conda activate openvino
     conda install jupyterlab ipywidgets
     git clone https://github.com/openvinotoolkit/openvino_notebooks.git
-    git clone https://github.com/intel/AI-PC_Notebooks.git
-    jupyter lab
+    git clone https://github.com/intel/AI-PC_Notebooks.git    
     ```
 
 4. Make sure you are in the root of your home directory.
+   ```sh    
+    jupyter lab
+    ```
 
-5. Once you open the Jupyter lab, navigate to: `openvino_notebooks/notebooks/llm-agent-react` and run the `llm-agent-react-langchain.ipynb` notebook.
+6. Once you open the Jupyter lab, navigate to: `openvino_notebooks/notebooks/llm-agent-react` and run the `llm-agent-react-langchain.ipynb` notebook.
  
