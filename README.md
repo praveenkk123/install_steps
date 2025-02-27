@@ -43,8 +43,12 @@
     python -m ipykernel install --user --name=gpu_llmsycl
     ```
 
-6.  Navigate to: `AI-PC_Notebooks/AI-Travel-Agent/` and run
-          
-   pip install -r requirements.txt
+5. Navigate to: `AI-PC_Notebooks/AI-Travel-Agent/` and run
+   ```sh
+    pip install -r requirements.txt   
+    python -m ipykernel install --user --name=gpu_llmsycl
+    ```
+
+
           
  
