@@ -5,7 +5,7 @@ Install Git for desktop from https://git-scm.com/downloads/win
 
 Open mini-forge prmopt
 
-conda create -n openvino python=3.11 
+conda create -n openvino python=3.11
 
 conda activate openvino 
 
